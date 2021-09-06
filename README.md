@@ -18,11 +18,9 @@ As general count, we need to notice that the total of students in the district a
 
 To see how the district scores were affected, we need to compare the scores before the replacement of 9th grade students at Thomas High School and the same scores after the replacement.  In the below table, there are the scores before replacement: 
 
- | Ave. Math Score | Average Reading Score | Passing Math (%) | Passing Reading (%) | Overall (%) |
-
-| -------- | ---------- |
-
-| 79 | 81.9 | 75 | 86 | 65 |  
+| Average Math Score | Average Reading Score | Passing Math (%) | Passing Reading (%) | Overall (%) |
+| :-----: | :------: | :-----: | :-----: | :-----: |
+| 79 | 81.9 | 75 | 86 | 65 | 
 
 There is a difference of &pm;1 point in the tenths for the math and reading passing scores and their associate percentages as it is shown in the bellow dataframe.  This small difference may not have any big impact in the further analysis since it seems to be statistical insignificant.
 
@@ -82,7 +80,7 @@ Regarding the School type, there are only two types: Charter and District. Thoma
 ### Math and Reading Scores by School Type: 
 ![district_df](https://raw.githubusercontent.com/LeidyDoradoM/School_district_Challenge/main/Images/df_schooltype.png)
 
-
 ## Summary
 
-
+This new analysis after the replacement of math and reading scores for the 9th grade at Thomas High School shows that this replacement has a very minimum impact on the scores and percentages for all schools in the district. The replacement makes that the overall percentage for the entire district drops 0.1 units, which is expected since the universe of samples, i.e. the total number of student in the school district is 39,170 and the number of data samples we are not considered in the analysis is only 461.  Likewise, when we do the same analysis for the specific school, *The Thomas High School*, we found that the overall passing percentage drops from 90% to 65%. This drastic change, is explained also following the same thinking, but in this case the students considered in the computation are the ones from the Thomas High School, which is only 1,635. Therefore, the 461 students whose scores are not considered has a major impact on the results.  
+On the other hand, when we perform the analysis for the Thomas High School considering that its total number of students are those only in 10th-12th grades, its math and reading scores and their respective percentage are back at the same range of values and percentages as before the replacement, which makes that the other comparatives such as: **average scores by school size, school type, school spending**  do not change at all.
