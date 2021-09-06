@@ -8,11 +8,11 @@ An initial analysis on student funding and students standarized test scores has 
 
 ## Results
 
-In order to handle this possible academic dishonesty, we need to replace with `NaN` all math and reading scores for *Thomas High School* and then repeat the initial school district analysis. Here it is a glimpse to the dataframe showing the `NaN` values replacing the scores for *9th grade* at *Thomas High School*.  
+In order to handle this possible academic dishonesty, we need to replace with `NaN` all math and reading scores for *Thomas High School* and then repeat the initial school district analysis. Here it is a glimpse of the dataframe showing the `NaN` values replacing the scores for *9th grade* at *Thomas High School*.  
 
 ![Nan_in_df](https://raw.githubusercontent.com/LeidyDoradoM/School_district_Challenge/main/Images/df_NaNs.png)
 
-As general count, we need to notice that the total of students in the district are Below it is our findings that give  answers to some questions:
+As an general overview, we need to notice that the total of students in the distric is 39,170 and the total students with `Nan` as score values is 461.  Below it is our findings that give  answers to some questions:
 
 1. How is the distict summary affected?
 
